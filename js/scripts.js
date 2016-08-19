@@ -22,6 +22,7 @@ function pingPong(input){
     }
   }
 }
+
 function userAnswer(input3, input5, input15){
   if (input3 === 3 && input5 === 5 && input15 === 15){
     return true;
@@ -29,7 +30,6 @@ function userAnswer(input3, input5, input15){
     return false;
   }
 }
-
 
 // Front-End Logic
 $("form#pingPong").submit(function(event){
