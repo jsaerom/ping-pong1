@@ -35,7 +35,7 @@ $("form").submit(function(event){
     $("ul").empty();
     $(".hideThis").hide();
     $("#showThis1").show();
-    $("label").text("Enter another number:");
+    $("#inputLabel").text("Enter another number:");
     for (var i = 0; i < outputResults.length; i++){
       $("ul").append("<li>" + outputResults[i] + "</li>");
     };

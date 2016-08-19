@@ -18,7 +18,7 @@
           <hr id="hr2">
         </div>
         <form id="pingPong">
-          <label for="num">Enter a number:</label>
+          <label for="num" id="inputLabel">Enter a number:</label>
           <input type="number" name="num" id="inputNum">
           <button type="submit" name="button" class="btn">Submit</button>
         </form>
@@ -26,17 +26,44 @@
 
         </ul>
 
+
+
+
         <div id="showThis1">
+          <hr id="hr4">
+          <div id="solution">
+            <h3>Solve the pattern:</h3>
+            <form id="solutionForm">
+              <div>
+                <label for="three">Output is "Ping!" when the number is divisible by: </label>
+                <input type="number" name="three" id="three">
+              </div>
+              <div>
+                <label for="five">Output is "Pong!" when the number is divisible by: </label>
+                <input type="number" name="five" id="five">
+              </div>
+              <div>
+                <label for="fifteen">Output is "Ping-Pong!" when the number is divisible by: </label>
+                <input type="number" name="fifteen" id="fifteen">
+              </div>
+                <button type="submit" name="button" class="btn">Solve!</button>
+            </form>
+
+          </div>
           <hr id="hr3">
-          <div class="jumbotron">
+          <div class="answer">
             <h3>Give up?</h3>
-            <h4 class="clickable">Click here to find the solution.</h4>
+            <h4 class="clickable">Click here to find the solution!</h4>
             <div id="showThis2">
               <p>Numbers divisible by 3 are replaced with "ping".</p>
               <p>Numbers divisible by 5 are replaced with "pong".</p>
               <p>Numbers divisible by 15 are replaced with "ping-pong".</p>
             </div>
           </div>
+
+
+
+
         </div>
 <!-- don't touch anything below this -->
     </div>
