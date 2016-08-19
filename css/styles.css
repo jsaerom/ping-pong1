@@ -1,3 +1,9 @@
+#correct{
+  display: none;
+}
+#incorrect{
+  display: none;
+}
 body{
   font-family: 'Abril Fatface', cursive;
   text-align: center;
@@ -83,6 +89,10 @@ label, input{
 }
 label, input{
   width: 250px;
+}
+#solutionForm label, #solutionForm input{
+  width: 300px;
+  margin-bottom: 8px;
 }
 h4{
   font-family: 'Archivo Narrow', sans-serif;

@@ -1,6 +1,9 @@
 // Back-End Logic
 var inputNum = 0;
 var outputResults = [];
+var answerThree = 0;
+var answerFive = 0;
+var answerFifteen = 0;
 
 function inputResult(input){
   for (var i = 1; i <= input; i++){
@@ -19,9 +22,17 @@ function pingPong(input){
     }
   }
 }
+function userAnswer(input3, input5, input15){
+  if (input3 === 3 && input5 === 5 && input15 === 15){
+    return true;
+  } else{
+    return false;
+  }
+}
+
 
 // Front-End Logic
-$("form").submit(function(event){
+$("form#pingPong").submit(function(event){
   event.preventDefault();
   inputNum = parseInt($("#inputNum").val());
   if (!$("input").val()){
@@ -48,4 +59,18 @@ $(".clickable").click(function(){
 
 $("#banner").click(function(){
   document.location.reload(true);
+});
+
+$("form#solutionForm").submit(function(event){
+  event.preventDefault();
+  answerThree = parseInt($("input#three").val());
+  answerFive = parseInt($("input#five").val());
+  answerFifteen = parseInt($("input#fifteen").val());
+  if (userAnswer(answerThree, answerFive, answerFifteen) === true){
+    $("#correct").show();
+    $("#incorrect").hide();
+  }else {
+    $("#incorrect").show();
+    $("#correct").hide();
+  }
 });
