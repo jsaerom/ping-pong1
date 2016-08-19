@@ -17,11 +17,7 @@ _This website takes input from the user as a number and displays numbers up to t
   * _Example Output: Please enter a number greater than 0_
 
 * _The website alerts you when you submit an empty form._
-<<<<<<< HEAD
-  * _Example Input: _
-=======
   * _Example Input: [empty]_
->>>>>>> gh-pages
   * _Example Output: Please enter a number greater than 0_
 
 * _The website will provide an unordered list of numbers up to the input number._
@@ -42,13 +38,13 @@ _This website takes input from the user as a number and displays numbers up to t
 
 ## Installation Requirements
 
-1. Go to [my GitHub](https://github.com/jsaerom/ping-pong)
+1. Go to [my GitHub](https://github.com/jsaerom/ping-pong1)
 2. Click Clone or download and choose either the Open in Desktop option or Download Zip option
 **OR**
 1. Open Terminal
-2. Command $ git clone https://github.com/jsaerom/ping-pong
+2. Command $ git clone https://github.com/jsaerom/ping-pong1
 
-To view the website, [click here](https://jsaerom.github.io/ping-pong/)
+To view the website, [click here](https://jsaerom.github.io/ping-pong1/)
 
 ## Technologies Used
 
