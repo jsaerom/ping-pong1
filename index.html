@@ -3,35 +3,36 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <title>Ping-Pong</title>
+    <title>Ping Pong</title>
   </head>
   <body>
-    <div class="container">
-      <h1>PING-PONG</h1>
-      <hr id="hr1">
-      <div class="hideThis">
-        <h2>Can you guess the pattern? Enter a number to find out!</h2>
-        <hr id="hr2">
-      </div>
-      <form id="pingPong">
-        <label for="num">Enter a number:</label>
-        <input type="number" name="num" id="inputNum">
-        <button type="submit" name="button" class="btn">Submit</button>
-      </form>
-      <ul id="result">
-
-      </ul>
-      <div id="showThis1" class="jumbotron">
-        <h3>Give up?</h3>
-        <p class="clickable">Click here to find the solution.</p>
-        <div id="showThis2">
-          <p>Numbers divisible by 3 are replaced with "ping".</p>
-          <p>Numbers divisible by 5 are replaced with "pong".</p>
-          <p>Numbers divisible by 15 are replaced with "ping-pong".</p>
+    <div class="container row">
+      <div class="col-xs-8 col-xs-offset-2">
+        <img src="img/banner.png" alt="Ping-Pong">
+        <hr id="hr1">
+        <div class="hideThis">
+          <img src="img/h2text.png" alt="Can you guess the pattern?">
+          <hr id="hr2">
         </div>
-      </div>
+        <form id="pingPong">
+          <label for="num">Enter a number:</label>
+          <input type="number" name="num" id="inputNum">
+          <button type="submit" name="button" class="btn">Submit</button>
+        </form>
+        <ul id="result">
+
+        </ul>
+        <div id="showThis1" class="jumbotron">
+          <h3>Give up?</h3>
+          <p class="clickable">Click here to find the solution.</p>
+          <div id="showThis2">
+            <p>Numbers divisible by 3 are replaced with "ping".</p>
+            <p>Numbers divisible by 5 are replaced with "pong".</p>
+            <p>Numbers divisible by 15 are replaced with "ping-pong".</p>
+          </div>
+        </div>
 <!-- don't touch anything below this -->
     </div>
     <script type="text/javascript" src="js/jquery-3.1.0.js"></script>

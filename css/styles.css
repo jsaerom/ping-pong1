@@ -1,11 +1,7 @@
-.container{
-  margin-left: 15px;
-  margin-right: 15px;
-}
 body{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Abril Fatface', cursive;
   text-align: center;
-  color: #00004d;
+  color: #000000;
 }
 #showThis1{
   display: none;
@@ -13,26 +9,30 @@ body{
 #showThis2{
   display: none;
 }
+img{
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
 h1{
-  font-weight: 900;
-  font-size: 150px;
+  font-size:230px;
 }
 h2{
   font-weight: 700;
-  font-size: 80px;
+  font-size: 84px;
   text-align: justify;
   margin-left: 10%;
   margin-right: 10%;
 }
 #hr1{
   border-width: 15px;
-  border-color: #00004d;
+  border-color: #000000;
   margin-left: 5%;
   margin-right: 5%;
 }
 #hr2{
-  border-width: 10px;
-  border-color: #00004d;
+  border-width: 8px;
+  border-color: #000000;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -47,18 +47,19 @@ ul{
 }
 .btn{
   background: none;
-  border: 2px solid #00004d;
-  color: #00004d;
+  border: 2px solid #000000;
+  color: #000000;
   border-radius: 0;
+  padding: 3px;
 }
 .btn:hover{
-  background: #3333ff;
+  background: #f2f2f3;
 }
 input{
-  border: 1.5px solid #00004d;
+  border: 1.5px solid #000000;
 }
 .jumbotron{
-  background-color: #00004d;
+  background-color: #000000;
   color: white;
   text-align: left;
 }
