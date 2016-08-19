@@ -129,7 +129,9 @@ input{
   }
   label{
     font-size: 2em;
-    margin-bottom: 10px;
+  }
+  label, input{
+    width: 350px;
   }
 }
 @media (max-width: 450px){
