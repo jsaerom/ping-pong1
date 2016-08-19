@@ -28,8 +28,13 @@ $("form").submit(function(event){
   pingPong(inputNum);
   $("ul").empty();
   $(".hideThis").hide();
+  $("#showThis1").show();
+  $("label").text("Enter another number:");
   for (var i = 0; i < outputResults.length; i++){
     $("ul").append("<li>" + outputResults[i] + "</li>");
   };
   event.preventDefault();
+});
+$(".clickable").click(function(){
+  $("#showThis2").toggle();
 });

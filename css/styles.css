@@ -7,9 +7,15 @@ body{
   text-align: center;
   color: #00004d;
 }
+#showThis1{
+  display: none;
+}
+#showThis2{
+  display: none;
+}
 h1{
   font-weight: 900;
-  font-size: 160px;
+  font-size: 150px;
 }
 h2{
   font-weight: 700;
@@ -45,6 +51,20 @@ ul{
   color: #00004d;
   border-radius: 0;
 }
+.btn:hover{
+  background: #3333ff;
+}
 input{
   border: 1.5px solid #00004d;
+}
+.jumbotron{
+  background-color: #00004d;
+  color: white;
+  text-align: left;
+}
+.jumbotron h3{
+  font-size: 45px;
+}
+#showThis2 p{
+  text-align: left;
 }

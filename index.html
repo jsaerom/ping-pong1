@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="container">
-      <h1>Ping-Pong</h1>
+      <h1>PING-PONG</h1>
       <hr id="hr1">
       <div class="hideThis">
         <h2>Can you guess the pattern? Enter a number to find out!</h2>
@@ -20,10 +20,17 @@
         <input type="number" name="num" id="inputNum">
         <button type="submit" name="button" class="btn">Submit</button>
       </form>
-      <div>
-        <ul id="result">
+      <ul id="result">
 
-        </ul>
+      </ul>
+      <div id="showThis1" class="jumbotron">
+        <h3>Give up?</h3>
+        <p class="clickable">Click here to find the solution.</p>
+        <div id="showThis2">
+          <p>Numbers divisible by 3 are replaced with "ping".</p>
+          <p>Numbers divisible by 5 are replaced with "pong".</p>
+          <p>Numbers divisible by 15 are replaced with "ping-pong".</p>
+        </div>
       </div>
 <!-- don't touch anything below this -->
     </div>
