@@ -10,61 +10,64 @@
     <title>Ping Pong</title>
   </head>
   <body>
-    <div class="container-fluid row row-centered">
-      <div class="col-xs-8 col-centered col-xs-push-2 col-xs-pull-2">
-        <img id="banner" src="img/banner.png" alt="Ping-Pong">
-        <hr id="hr1">
-        <div class="hideThis">
-          <img src="img/h2text.png" alt="Can you guess the pattern?">
-          <hr id="hr2">
-        </div>
-        <form id="pingPong">
-          <label for="num" id="inputLabel">Enter a number:</label>
-          <input type="number" name="num" id="inputNum">
-          <button type="submit" name="button" class="btn">Submit</button>
-        </form>
-        <ul id="result">
+    <div class="container">
 
-        </ul>
-        <div id="showThis1">
-          <hr id="hr4">
-          <div id="solution">
-            <h3>Solve the pattern:</h3>
-            <form id="solutionForm">
-              <div>
-                <label for="three">Output is "Ping!" when the number is divisible by: </label>
-                <input type="number" name="three" id="three">
-              </div>
-              <div>
-                <label for="five">Output is "Pong!" when the number is divisible by: </label>
-                <input type="number" name="five" id="five">
-              </div>
-              <div>
-                <label for="fifteen">Output is "Ping-Pong!" when the number is divisible by: </label>
-                <input type="number" name="fifteen" id="fifteen">
-              </div>
-                <button type="submit" name="button" class="btn">Solve!</button>
-            </form>
+
+      <img id="banner" src="img/banner.png" alt="Ping-Pong">
+      <hr id="hr1">
+      <div class="hideThis">
+        <img src="img/h2text.png" alt="Can you guess the pattern?">
+        <hr id="hr2">
+      </div>
+      <form id="pingPong">
+        <label for="num" id="inputLabel">Enter a number:</label>
+        <input type="number" name="num" id="inputNum">
+        <button type="submit" name="button" class="btn">Submit</button>
+      </form>
+      <ul id="result">
+
+      </ul>
+      <div id="showThis1">
+        <hr id="hr4">
+        <div id="solution">
+          <h3>Solve the pattern:</h3>
+          <form id="solutionForm">
+            <div>
+              <label for="three">Output is "Ping!" when the number is divisible by: </label>
+              <input type="number" name="three" id="three">
+            </div>
+            <div>
+              <label for="five">Output is "Pong!" when the number is divisible by: </label>
+              <input type="number" name="five" id="five">
+            </div>
+            <div>
+              <label for="fifteen">Output is "Ping-Pong!" when the number is divisible by: </label>
+              <input type="number" name="fifteen" id="fifteen">
+            </div>
+            <button type="submit" name="button" class="btn">Solve!</button>
+          </form>
+        </div>
+        <div class="userResult">
+          <div id="correct">
+            <h3>You're a genius!</h3>
           </div>
-          <div class="userResult">
-            <div id="correct">
-              <h3>You're a genius!</h3>
-            </div>
-            <div id="incorrect">
-              <h3>Hmm... Not quite correct. Maybe next time!</h3>
-            </div>
-          </div>
-          <hr id="hr3">
-          <div class="answer">
-            <h3>Give up?</h3>
-            <h4 class="clickable">Click here to find the solution!</h4>
-            <div id="showThis2">
-              <p>Numbers divisible by 3 are replaced with "ping".</p>
-              <p>Numbers divisible by 5 are replaced with "pong".</p>
-              <p>Numbers divisible by 15 are replaced with "ping-pong".</p>
-            </div>
+          <div id="incorrect">
+            <h3>Hmm... Not quite correct. Maybe next time!</h3>
           </div>
         </div>
+        <hr id="hr3">
+        <div class="answer">
+          <h3>Give up?</h3>
+          <h4 class="clickable">Click here to find the solution!</h4>
+          <div id="showThis2">
+            <p>Numbers divisible by 3 are replaced with "ping".</p>
+            <p>Numbers divisible by 5 are replaced with "pong".</p>
+            <p>Numbers divisible by 15 are replaced with "ping-pong".</p>
+          </div>
+        </div>
+
+
+        
     </div>
     <script type="text/javascript" src="js/jquery-3.1.0.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
