@@ -17,7 +17,7 @@ _This website takes input from the user as a number and displays numbers up to t
   * _Example Output: Please enter a number greater than 0_
 
 * _The website alerts you when you submit an empty form._
-  * _Example Input: _
+  * _Example Input: [empty]_
   * _Example Output: Please enter a number greater than 0_
 
 * _The website will provide an unordered list of numbers up to the input number._
