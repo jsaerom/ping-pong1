@@ -125,10 +125,15 @@ input{
     width: 1300px;
   }
   label, input{
-    width: 350px;
+    width: 400px;
+    margin-bottom: 15px;
+  }
+  label{
+    line-height: 30px;
   }
   p{
     font-size: 2em;
+    line-height: 15px;
   }
   label{
     font-size: 2em;
@@ -137,6 +142,5 @@ input{
 @media (max-width: 450px){
   label, input{
     width: 100px;
-    margin-bottom: 15px;
   }
 }
