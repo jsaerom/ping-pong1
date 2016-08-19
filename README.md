@@ -38,7 +38,7 @@ _This website takes input from the user as a number and displays numbers up to t
 
 To view the website, click here
 
-## Technologies Used
+## Technologies Used 
 
 * _HTML_
 * _CSS_
