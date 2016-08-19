@@ -11,11 +11,11 @@ function inputResult(input){
 function pingPong(input){
   for (var i = 0; i < outputResults.length; i++){
     if ((outputResults[i] % 15) === 0){
-      outputResults[i] = "Ping-Pong";
+      outputResults[i] = "Ping-Pong!";
     } else if ((outputResults[i]%5) === 0){
-      outputResults[i] = "Pong";
+      outputResults[i] = "Pong!";
     } else if ((outputResults[i]%3) === 0){
-      outputResults[i] = "Ping";
+      outputResults[i] = "Ping!";
     }
   }
 }
@@ -27,6 +27,7 @@ $("form").submit(function(event){
   inputResult(inputNum);
   pingPong(inputNum);
   $("ul").empty();
+  $(".hideThis").hide();
   for (var i = 0; i < outputResults.length; i++){
     $("ul").append("<li>" + outputResults[i] + "</li>");
   };

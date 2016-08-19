@@ -1,0 +1,50 @@
+.container{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+body{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  color: #00004d;
+}
+h1{
+  font-weight: 900;
+  font-size: 160px;
+}
+h2{
+  font-weight: 700;
+  font-size: 80px;
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#hr1{
+  border-width: 15px;
+  border-color: #00004d;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#hr2{
+  border-width: 10px;
+  border-color: #00004d;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+ul{
+  text-align: left;
+  font-size: 30px;
+  list-style-type: square;
+  margin-left: 40px;
+}
+.test{
+  color: red;
+}
+.btn{
+  background: none;
+  border: 2px solid #00004d;
+  color: #00004d;
+  border-radius: 0;
+}
+input{
+  border: 1.5px solid #00004d;
+}

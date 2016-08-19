@@ -3,12 +3,18 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <title>Ping-Pong</title>
   </head>
   <body>
     <div class="container">
       <h1>Ping-Pong</h1>
+      <hr id="hr1">
+      <div class="hideThis">
+        <h2>Can you guess the pattern? Enter a number to find out!</h2>
+        <hr id="hr2">
+      </div>
       <form id="pingPong">
         <label for="num">Enter a number:</label>
         <input type="number" name="num" id="inputNum">
@@ -16,15 +22,9 @@
       </form>
       <div>
         <ul id="result">
-          
+
         </ul>
       </div>
-
-
-
-
-
-
 <!-- don't touch anything below this -->
     </div>
     <script type="text/javascript" src="js/jquery-3.1.0.js"></script>
