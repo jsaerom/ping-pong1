@@ -22,19 +22,26 @@ function pingPong(input){
 
 // Front-End Logic
 $("form").submit(function(event){
-  inputNum = parseInt($("#inputNum").val());
-  outputResults = [];
-  inputResult(inputNum);
-  pingPong(inputNum);
-  $("ul").empty();
-  $(".hideThis").hide();
-  $("#showThis1").show();
-  $("label").text("Enter another number:");
-  for (var i = 0; i < outputResults.length; i++){
-    $("ul").append("<li>" + outputResults[i] + "</li>");
-  };
   event.preventDefault();
+  inputNum = parseInt($("#inputNum").val());
+  if (!$("input").val()){
+    alert("Please enter a valid number.");
+  } else if (inputNum <= 0){
+    alert("Pleae enter a number greater than 0.");
+  } else{
+    outputResults = [];
+    inputResult(inputNum);
+    pingPong(inputNum);
+    $("ul").empty();
+    $(".hideThis").hide();
+    $("#showThis1").show();
+    $("label").text("Enter another number:");
+    for (var i = 0; i < outputResults.length; i++){
+      $("ul").append("<li>" + outputResults[i] + "</li>");
+    };
+  };
 });
+
 $(".clickable").click(function(){
   $("#showThis2").toggle();
 });
