@@ -9,24 +9,26 @@ function inputResult(input){
 }
 
 function pingPong(input){
-  inputResult(inputNum);
   for (var i = 0; i < outputResults.length; i++){
     if ((outputResults[i] % 15) === 0){
-      outputResults[i] = "ping-pong";
+      outputResults[i] = "Ping-Pong";
     } else if ((outputResults[i]%5) === 0){
-      outputResults[i] = "pong";
+      outputResults[i] = "Pong";
     } else if ((outputResults[i]%3) === 0){
-      outputResults[i] = "ping";
+      outputResults[i] = "Ping";
     }
   }
 }
 
 // Front-End Logic
 $("form").submit(function(event){
-  event.preventDefault();
   inputNum = parseInt($("#inputNum").val());
+  outputResults = [];
+  inputResult(inputNum);
   pingPong(inputNum);
+  $("ul").empty();
   for (var i = 0; i < outputResults.length; i++){
-  $("ul").append("<li>" + outputResults[i] + "</li>");
+    $("ul").append("<li>" + outputResults[i] + "</li>");
   };
+  event.preventDefault();
 });
