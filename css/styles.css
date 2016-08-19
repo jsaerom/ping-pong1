@@ -124,14 +124,14 @@ input{
   .container{
     width: 1300px;
   }
+  label, input{
+    width: 350px;
+  }
   p{
     font-size: 2em;
   }
   label{
     font-size: 2em;
-  }
-  label, input{
-    width: 350px;
   }
 }
 @media (max-width: 450px){
