@@ -45,3 +45,7 @@ $("form").submit(function(event){
 $(".clickable").click(function(){
   $("#showThis2").toggle();
 });
+
+$("#banner").click(function(){
+  document.location.reload(true);
+});

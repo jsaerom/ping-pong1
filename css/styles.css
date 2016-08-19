@@ -36,6 +36,13 @@ h2{
   margin-left: 5%;
   margin-right: 5%;
 }
+#hr3{
+  border-width: 8px;
+  border-color: #000000;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 1px;
+}
 ul{
   text-align: left;
   font-size: 30px;
@@ -50,21 +57,32 @@ ul{
   border: 2px solid #000000;
   color: #000000;
   border-radius: 0;
-  padding: 3px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 .btn:hover{
   background: #f2f2f3;
+}
+label, p{
+  font-family: 'Archivo Narrow', sans-serif;
+  line-height: 10px;
+}
+h4{
+  font-family: 'Archivo Narrow', sans-serif;
 }
 input{
   border: 1.5px solid #000000;
 }
 .jumbotron{
-  background-color: #000000;
-  color: white;
   text-align: left;
+  background: white;
+  padding: 0.5px;
 }
 .jumbotron h3{
   font-size: 45px;
+  margin-top: 2px;
 }
 #showThis2 p{
   text-align: left;
