@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
@@ -9,8 +10,8 @@
     <title>Ping Pong</title>
   </head>
   <body>
-    <div class="container row">
-      <div class="col-xs-8 col-xs-offset-2">
+    <div class="container row row-centered">
+      <div class="col-xs-8 col-centered col-xs-push-2 col-xs-pull-2">
         <img id="banner" src="img/banner.png" alt="Ping-Pong">
         <hr id="hr1">
         <div class="hideThis">
@@ -25,16 +26,10 @@
         <ul id="result">
 
         </ul>
-
-
-
-<!-- THIS IS ORIGINALLY HIDDEN -->
         <div id="showThis1">
           <hr id="hr4">
           <div id="solution">
             <h3>Solve the pattern:</h3>
-
-<!-- THIS IS THE FORM FOR USERS TO SUBMIT ANSWER -->
             <form id="solutionForm">
               <div>
                 <label for="three">Output is "Ping!" when the number is divisible by: </label>
@@ -59,9 +54,6 @@
               <h3>Hmm... Not quite correct. Maybe next time!</h3>
             </div>
           </div>
-
-
-
           <hr id="hr3">
           <div class="answer">
             <h3>Give up?</h3>
@@ -72,12 +64,7 @@
               <p>Numbers divisible by 15 are replaced with "ping-pong".</p>
             </div>
           </div>
-
-
-
-
         </div>
-<!-- don't touch anything below this -->
     </div>
     <script type="text/javascript" src="js/jquery-3.1.0.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
