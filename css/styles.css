@@ -137,5 +137,6 @@ input{
 @media (max-width: 450px){
   label, input{
     width: 100px;
+    margin-bottom: 15px;
   }
 }
