@@ -67,6 +67,7 @@ $("form#pingPong").submit(function(event){
       $("ul").append("<li>" + outputResults[i] + "</li>");
     };
   };
+  console.log("test");
 });
 
 $(".clickable").click(function(){
@@ -82,11 +83,5 @@ $("form#solutionForm").submit(function(event){
   answerThree = parseInt($("input#three").val());
   answerFive = parseInt($("input#five").val());
   answerFifteen = parseInt($("input#fifteen").val());
-  if (userAnswer(answerThree, answerFive, answerFifteen) === true){
-    $("#correct").show();
-    $("#incorrect").hide();
-  }else {
-    $("#incorrect").show();
-    $("#correct").hide();
-  }
+  $("#howManyCorrect").text(userAnswer(answerThree, answerFive, answerFifteen));
 });

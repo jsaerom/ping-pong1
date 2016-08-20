@@ -1,6 +1,9 @@
 #correct{
   display: none;
 }
+.makeRed{
+  background-color: red;
+}
 #incorrect{
   display: none;
 }
