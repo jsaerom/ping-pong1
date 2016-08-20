@@ -24,11 +24,27 @@ function pingPong(input){
 }
 
 function userAnswer(input3, input5, input15){
-  if (input3 === 3 && input5 === 5 && input15 === 15){
-    return true;
+  var correct = 0;
+
+  if (input3 === 3){
+    correct += 1;
+    $("#three").removeClass("makeRed");
   } else{
-    return false;
+    $("#three").addClass("makeRed");
   }
+  if (input5 === 5){
+    correct += 1;
+    $("#five").removeClass("makeRed");
+  } else{
+    $("#five").addClass("makeRed");
+  }
+  if (input15 === 15){
+    correct += 1;
+    $("#fifteen").removeClass("makeRed");
+  } else{
+    $("#fifteen").addClass("makeRed");
+  }
+  return correct;
 }
 
 // Front-End Logic
