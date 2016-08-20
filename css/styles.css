@@ -7,6 +7,9 @@
 #incorrect{
   display: none;
 }
+#showThis3{
+  display:none;
+}
 body{
   font-family: 'Abril Fatface', cursive;
   text-align: center;

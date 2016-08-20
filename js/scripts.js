@@ -83,5 +83,6 @@ $("form#solutionForm").submit(function(event){
   answerThree = parseInt($("input#three").val());
   answerFive = parseInt($("input#five").val());
   answerFifteen = parseInt($("input#fifteen").val());
+  $("#showThis3").show();
   $("#howManyCorrect").text(userAnswer(answerThree, answerFive, answerFifteen));
 });
